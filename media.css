@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.navbar {
+    height: 75px;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 5px;
+    padding-top: 8px;
+    padding-right: 5px;
+    background-color: aqua;
+    color: rgb(1, 39, 39);
+}
+li {
+    border: 2px solid rgb(167, 163, 163);
+    color: rgb(229, 103, 13);
+    border-radius: 10%;
+}
+
+@media screen and (max-width:600px){
+    ul{
+        background-color: rgb(12, 12, 109);
+        flex-direction: column;
+        text-align: center;
+    }
+    li{
+        color: black;
+    }
+}

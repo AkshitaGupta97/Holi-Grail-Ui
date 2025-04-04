@@ -1,0 +1,57 @@
+#holy {
+    color: rgb(209, 15, 15);
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(246, 249, 146);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    width: 600px;
+    grid-template-areas: 
+    "head head head"
+    "menu content ads"
+    "menu content ads"
+    "menu content ads"
+    "menu content ads"
+    "foot foot foot";
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    border: 3px solid black;
+}
+
+.head {
+    background-color: rgb(44, 44, 212);
+    color: white;
+    grid-area: head;
+    text-align: center;
+}
+
+.menu {
+    background-color: rgb(216, 59, 132);
+    color: rgb(10, 9, 9);
+    grid-area: menu;
+    text-align: center;
+}
+
+.foot {
+    background-color: rgb(44, 44, 212);
+    color: rgb(241, 237, 237);
+    grid-area: foot;
+    text-align: center;
+}
+
+.content {
+    background-color: rgb(76, 6, 217);
+    color: rgb(10, 9, 9);
+    grid-area: content;
+    text-align: center;
+}
+
+.ads {
+    background-color: rgb(198, 67, 27);
+    color: rgb(1, 1, 1);
+    grid-area: ads;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+
+*{
+    box-sizing: border-box;
+}
+#div1 {
+    border: aqua solid 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+    min-width: 500px;
+    min-height: 50px;
+    box-sizing: content-box;
+}
+
+#div2 {
+    border: goldenrod solid 10px;
+    padding: 4px;
+    margin-bottom: 5px;
+    min-width: 400px;
+    min-height: 50px;
+    box-sizing: border-box;
+}
+
+#div3 {
+    border: 400px dotted 20px;
+    padding: 5px;
+    margin-bottom: 4px;
+    width: 100px;
+    height: 40px;
+}
